@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/swc src/ -d ./dist"
+    "build": "./node_modules/.bin/swc src/ -d ./dist",
+    "test": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
