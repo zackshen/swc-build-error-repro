@@ -1,0 +1,15 @@
+{
+  "jsc": {
+    "target": "es2016",
+    "parser": {
+      "syntax": "ecmascript",
+      "dynamicImport": true,
+      "exportDefaultFrom": true,
+      "exportNamespaceFrom": true,
+      "topLevelAwait": true
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  }
+}
